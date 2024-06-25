@@ -7,7 +7,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
         <PlatformTarget>AnyCPU</PlatformTarget>
-        <Platforms>AnyCPU;ARM32</Platforms>
+        <Platforms>AnyCPU</Platforms>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
     </PropertyGroup>
 
     <ItemGroup>
