@@ -8,6 +8,7 @@
         <UseWPF>true</UseWPF>
         <PlatformTarget>AnyCPU</PlatformTarget>
         <Platforms>AnyCPU</Platforms>
+	      <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     </PropertyGroup>
 
     <ItemGroup>
