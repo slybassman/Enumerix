@@ -3,6 +3,7 @@
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '15.0'">
     <VisualStudioVersion>15.0</VisualStudioVersion>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <TargetFramework>net8.0-windows</TargetFramework>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x86">
