@@ -74,10 +74,10 @@ jobs:
         dotnet-version: 8.0.x
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
-    - name: Setup MSBuild.exe
+    - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v2
       with:
-          msbuild-architecture: x64
+        msbuild-architecture: x64
 
     # Execute all unit tests in the solution
     #- name: Execute unit tests
