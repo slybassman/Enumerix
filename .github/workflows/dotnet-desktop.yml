@@ -78,6 +78,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
       with:
           msbuild-architecture: 'x64'
+          default: "x64"
 
     # Execute all unit tests in the solution
     #- name: Execute unit tests
