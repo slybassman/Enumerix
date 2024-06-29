@@ -17,7 +17,6 @@ public class MoleculeCounterViewModel : INotifyPropertyChanged, IDataErrorInfo
     private bool _isTimerActive;
     private bool _isSaturated;
     private const int MaxMoleculeCount = 100;
-    //private readonly Dictionary<string, string> _errors = new();
 
     public MoleculeCounterViewModel()
     {
@@ -197,12 +196,7 @@ public class MoleculeCounterViewModel : INotifyPropertyChanged, IDataErrorInfo
                     }
                     break;
             }
-
-            // if (!string.IsNullOrEmpty(error))
-            //     _errors.TryAdd(columnName, error);
-            // else 
-            //     _errors.Remove(columnName);
-
+            
             return error;
         }
     }
