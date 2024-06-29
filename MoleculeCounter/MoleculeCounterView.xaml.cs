@@ -12,7 +12,6 @@ public partial class MoleculeCounterView : UserControl
         DataContext = new MoleculeCounterViewModel();
     }
 
-    
     private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
     {
         var regex = MyRegex();
