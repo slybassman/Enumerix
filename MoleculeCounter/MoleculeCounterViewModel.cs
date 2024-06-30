@@ -6,6 +6,9 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace MoleculeCounter;
 
+/// <summary>
+/// ViewModel Class
+/// </summary>
 public class MoleculeCounterViewModel : INotifyPropertyChanged, IDataErrorInfo
 {
     private bool _isCounterStatus;
