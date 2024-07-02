@@ -6,6 +6,7 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace MoleculeCounter;
 
+
 /// <summary>
 /// ViewModel Class
 /// </summary>
