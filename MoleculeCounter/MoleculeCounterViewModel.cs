@@ -68,7 +68,6 @@ public class MoleculeCounterViewModel : INotifyPropertyChanged, IDataErrorInfo
 
     public bool IsCounterStatus
     {
-        get => _isCounterStatus;
         set => SetField(ref _isCounterStatus, value);
     }
 
