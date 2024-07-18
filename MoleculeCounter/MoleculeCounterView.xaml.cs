@@ -1,10 +1,9 @@
 using System.Text.RegularExpressions;
-using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace MoleculeCounter;
 
-public partial class MoleculeCounterView : UserControl
+public partial class MoleculeCounterView
 {
     public MoleculeCounterView()
     {
