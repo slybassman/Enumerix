@@ -84,7 +84,6 @@ public class MoleculeCounterViewModel : INotifyPropertyChanged, IDataErrorInfo
     }
 
     public string? ExperimentName { get; set; }
-
     
     public string? SampleName { get; set; }
 
